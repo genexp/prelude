@@ -20,6 +20,8 @@
 (load-theme 'solarized-dark)
 
 (textmate-mode)
+(global-set-key (kbd "M-s t") 'textmate-clear-cache)
+
 
 (add-hook 'prog-mode-hook 'prelude-turn-off-whitespace t)
 (add-hook 'prog-mode-hook 'flyspell-prog-mode t)
